@@ -1,0 +1,38 @@
+<div class="container my-0">
+    <nav class="navbar sticky-top navbar-expand-lg justify-content-center">
+        <div class="container">
+            <a class="navbar-brand display-1 w-50 me-auto" href="/">
+                <img src="/img/dcu_karting_white_transparent.png" alt="Logo" width="90" height="72"
+                    class="d-inline-block align-text-middle" />
+                DCU Karting Society
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse w-100" id="navbarSupportedContent">
+                <ul class="nav navbar-nav ms-auto w-100 justify-content-end align-text-right">
+                    <li
+                        class="<%= typeof home_active != 'undefined' ? 'nav-item border rounded bg-danger' : 'nav-item' %>">
+                        <a class="nav-link <%= typeof home_active != 'undefined' ? home_active : "" %>"
+                            href="/">Home</a>
+                    </li>
+                    <li
+                        class="<%= typeof about_active != 'undefined' ? 'nav-item border rounded bg-danger' : 'nav-item' %>">
+                        <a class="nav-link <%= typeof about_active != 'undefined' ? about_active : "" %>"
+                            href="/about">About</a>
+                    </li>
+                    <li
+                        class="<%= typeof events_active != 'undefined' ? 'nav-item border rounded bg-danger' : 'nav-item' %>">
+                        <a class="nav-link <%= typeof events_active != 'undefined' ? events_active : "" %>"
+                            href="/events">Events</a>
+                    </li>
+                    <li
+                        class="<%= typeof gallery_active != 'undefined' ? 'nav-item border rounded bg-danger' : 'nav-item' %>">
+                        <a class="nav-link <%= typeof gallery_active != 'undefined' ? gallery_active : "" %>"
+                            href="/gallery">Gallery</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+</div>
