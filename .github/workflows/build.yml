@@ -35,6 +35,8 @@ jobs:
             type=ref,event=branch
             type=ref,event=pr
             type=ref,event=tag
+          flavor: |
+            latest=true
 
       - name: Build and push
         uses: docker/build-push-action@v4
