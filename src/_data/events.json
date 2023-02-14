@@ -1,7 +1,7 @@
 {
     "Trolley Race": {
         "name": "Trolley Race",
-        "date": "15th February 2023",
+        "date": "22nd February 2023",
         "description": "DCU Karting are hosting a trolley race on DCU's Glasnevin campus in aid of charities! Get yourself a team member and sign up today for your chance to be crowned victor!",
         "poster": "/img/trolley.png",
         "primary_text": "Event Link",
@@ -9,11 +9,11 @@
         "secondary_text": "Donation Link",
         "secondary_link": "https://www.idonate.ie/fundraiser/DCUKartingSociety"
     },
-    "Bowling Trip": {
-        "name": "Bowling Trip",
-        "date": "18th February 2023",
-        "description": "DCU Karting are going bowling! Leisureplex in Blanchardstown on the 18th of February! FORE!",
-        "poster": "/img/trolley.png",
+    "Lyons Trip": {
+        "name": "Karting Lyons Trip",
+        "date": "15th February 2023",
+        "description": "We're heading to Lyons Karting in Armagh for our second trip of this semester. It is €35 per person and we plan to leave the helix for 10am so get to the meeting point around 15 minutes early. We expect to return by 6pm. Hope to see you there!",
+        "poster": "https://cdn.dcuclubs.ie/user_files/event/image/df33d9279a98fe775112baf44566d8e6.jpeg",
         "primary_text": "Event Link",
         "primary_link": "https://dcuclubsandsocs.ie/society/karting",
         "secondary_text": "",
