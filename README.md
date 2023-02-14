@@ -1,5 +1,7 @@
 # DCU Karting Society Static Site
 
+[![Build & Publish Container](https://github.com/redbrick/karting/actions/workflows/build.yml/badge.svg)](https://github.com/redbrick/karting/actions/workflows/build.yml)
+
 Static files for the DCU Karting Society website.
 
 ## Overview
