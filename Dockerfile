@@ -1,6 +1,6 @@
 FROM node:latest as build
 
-COPY src /app
+COPY . /app
 
 WORKDIR /app
 
